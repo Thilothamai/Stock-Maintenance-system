@@ -1,0 +1,106 @@
+/* signin.css */
+
+.form-container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  
+  .form-box {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100px;
+  }
+  
+  .form-box h2 {
+    text-align: left;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    align-content: normal;
+    
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #666;
+  }
+  
+  .form-group input {
+    width: 80%;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group-button {
+    text-align: left;
+  }
+  
+  .form-group-button button {
+    background-color: #007bff;
+    color: #fff;
+    align-items: baseline;
+    align-content: baseline;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px; /* Set the width of the button */
+    height: 30px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-group-button button:hover {
+    background-color: #0056b3;
+  }
+  
+  .login-message {
+    margin-top: 20px;
+  }
+  
+  .login_redirect a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .login_redirect a:hover {
+    text-decoration: underline;
+  }
+  
+  .error-message {
+    color: #ff0000;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .loading-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .loading-spinner {
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid #007bff;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  

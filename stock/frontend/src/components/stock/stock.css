@@ -1,0 +1,97 @@
+/* stock.css */
+
+.stock-container {
+  position: relative; /* Position the container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Arrange children vertically */
+  height: 100vh;
+  margin-top: 20px; /* Added missing unit (px) */
+}
+
+.sidebar {
+  position: absolute; /* Position the sidebar */
+  top: 0; /* Align to the top of the container */
+  left: 0; /* Align to the left of the container */
+}
+
+.heading {
+  text-align: center;
+  font-size: 24px;
+  margin: 40px auto 20px;
+  color: #333;
+}
+
+.stock {
+  width: 80%;
+  margin: auto;
+}
+
+.stock h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333; /* Adjust color as needed */
+}
+
+.stock table {
+  border-collapse: collapse;
+  margin: 40px auto 20px; /* Add margin to separate from heading and center the table */
+}
+
+.stock th,
+.stock td {
+  height: auto;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.stock th {
+  background-color: rgb(150, 137, 244);
+  color: #333; /* Adjust color as needed */
+}
+
+.stock tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.stock tr:hover {
+  background-color: #ddd;
+}
+.stock td input{
+  width: 30%;
+}
+.stock td icon{
+  width: 30%;
+}
+.stock-preview-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 999;
+  padding: 5px 10px;
+}
+
+.stock-create-form {
+  display: flex;
+  justify-content: center; /* Distribute space evenly between the items */
+  align-items: center; /* Align items vertically */
+  margin-bottom: 20px; /* Add margin to separate from the table */
+}
+
+.stock-create-form input {
+  width: 15%; /* Adjusted width to accommodate both inputs */
+  padding: 8px;
+  margin-right: 10px; /* Added padding for better appearance */
+}
+
+.stock-create-form button {
+  width: auto; /* Adjusted width to accommodate button */
+  padding: 8px; /* Added padding for better appearance */
+}
+.stock-preview-button{
+  top: 10;
+  right: 10;
+  position: fixed;
+  width: auto;
+}

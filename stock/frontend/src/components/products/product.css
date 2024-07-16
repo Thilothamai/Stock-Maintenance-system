@@ -1,0 +1,113 @@
+.product {
+  display: flex;
+  justify-content: center; /* Center content vertically */
+}
+
+.product-content {
+  display: flex;
+}
+
+.product-form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.product-form input,
+.product-form button {
+  margin-right: 10px;
+  padding: 5px;
+  align-self: center; /* Align items vertically */
+}
+
+.product-form button {
+  height: 30px;
+  width: auto; 
+  align-self: center; /* Align items vertically */
+}
+
+.add-icon {
+  margin-right: 10px;
+  padding: 5px;
+  align-self: center; /* Align items vertically */
+}
+
+.product h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.product table {
+  width: 100%; /* Adjust table width */
+  border-collapse: collapse;
+  margin-top: 20px; /* Add margin to separate from form */
+}
+
+.product th,
+.product td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.product th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.product tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.product tr:hover {
+  background-color: #ddd;
+}
+
+.product li button {
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  height: 15px;
+  width: 15spx;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.product li button:hover {
+  background-color: #ff483f;
+}
+
+.product li.btn {
+  background-color: DodgerBlue; /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.product li.btn:hover {
+  background-color: RoyalBlue;
+}
+.button-container {
+  position: absolute;
+  top: 10px; /* Adjust this value as needed */
+  right: 10px; /* Adjust this value as needed */
+  display: flex;
+  align-items: center;
+}
+
+.button-container input[type="text"] {
+  margin-right: 10px; /* Adjust this value as needed */
+  padding: 5px; 
+  transition: width 0.4s ease-in-out;/* Adjust this value as needed */
+}
+
+.product-preview-button {
+  background-color: #0056b3;
+  color: #fff;
+  border: none;
+  padding: 5px 10px; /* Adjust this value as needed */
+  cursor: pointer;
+}
